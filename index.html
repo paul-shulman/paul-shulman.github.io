@@ -9,6 +9,11 @@
   <meta property="og:description" content="Operations and strategy professional who builds AI workflows, agents, and automated reporting. Selected projects.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://paul-shulman.github.io/">
+  <meta property="og:image" content="https://paul-shulman.github.io/images/scoring-agent.png">
+  <meta property="og:image:width" content="2560">
+  <meta property="og:image:height" content="1440">
+  <meta property="og:image:alt" content="Ranked shortlist from Paul Shulman's AI Evaluation & Scoring Agent">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,14 +25,14 @@
     <div class="wrap">
       <h1>Paul Shulman</h1>
       <p class="tagline">Operations &amp; Strategy | AI Workflow Builder</p>
-      <p class="location">Miami, FL</p>
+      <p class="location">Miami, FL · <a href="https://www.linkedin.com/in/paul-shulman" target="_blank" rel="noopener">LinkedIn ↗</a></p>
     </div>
   </header>
 
   <main class="wrap">
 
     <section class="intro">
-      <p>I'm a business operations and strategy professional with 10+ years across tech, financial services, and utilities. I find manual, repetitive work and replace it with automated workflows, AI agents, and reporting that leaders can act on. Below are a few things I've built.</p>
+      <p>I'm a Business Operations and Strategy professional with 10+ years across Tech, Financial Services, and Utilities. I find manual, repetitive work and replace it with automated workflows, AI agents, and reporting that leaders can act on. Below are four projects that show how I approach it.</p>
     </section>
 
     <section class="projects" aria-label="Projects">
@@ -35,19 +40,19 @@
 
       <article class="card" id="scoring-agent">
         <h3>AI Evaluation &amp; Scoring Agent</h3>
-        <img class="shot" src="images/scoring-agent.png" width="2560" height="1440" loading="lazy" alt="Weekly ranked shortlist: 25 listings scored, 11 shortlisted and 14 passed, each with a score, recommendation, and one-line rationale">
+        <a class="shot-link" href="images/scoring-agent.png" target="_blank" rel="noopener" aria-label="Open full-size screenshot"><img class="shot" src="images/scoring-agent.png" width="2560" height="1440" loading="lazy" alt="Ranked shortlist for the first two months: 159 listings scored, 65 shortlisted and 94 passed, each with a score, recommendation, and one-line rationale"></a>
         <h4>The problem</h4>
         <p>Reviewing a steady stream of new listings by hand took time, and it was hard to apply the same criteria to every one.</p>
         <h4>What I built</h4>
-        <p>An AI agent that runs on a weekly schedule, pulls in new listings, and scores each one against a custom rubric I designed. For every recommendation, it writes a short rationale explaining why it scored the way it did.</p>
+        <p>A fully automated AI agent that runs every weekday: it pulls in new listings, scores each against a custom rubric I designed, and writes a short rationale for every recommendation. It started as a daily digest; I evolved it into a weekly summary email and monthly recap, with a health check that flags if the data feed breaks.</p>
         <h4>How it works</h4>
         <ol class="steps">
-          <li>Ingests new external listings automatically each week</li>
-          <li>Evaluates each listing against a custom scoring rubric</li>
-          <li>Produces a ranked shortlist with a written rationale for every recommendation</li>
+          <li>Collects new listings automatically every weekday</li>
+          <li>Scores each one against a custom rubric and explains the score</li>
+          <li>Delivers a ranked weekly summary and a monthly recap by email</li>
         </ol>
         <h4>Result</h4>
-        <p class="result">Manual review became a ranked, decision-ready shortlist delivered every week, with the reasoning visible so each recommendation can be checked.</p>
+        <p class="result">Manual review became a ranked, decision-ready shortlist delivered every week, with the reasoning visible so each recommendation can be checked. In its first two months, it scored 159 listings and narrowed them to 65 worth pursuing.</p>
         <h4>Built with</h4>
         <ul class="tags">
           <li>Claude Code</li><li>Claude API</li><li>Python</li><li>Excel</li>
@@ -56,70 +61,71 @@
 
       <article class="card" id="executive-dashboard">
         <h3>Executive Analytics Dashboard</h3>
-        <img class="shot" src="images/executive-dashboard.png" width="2560" height="1888" loading="lazy" alt="Executive dashboard overview with KPI tiles, a funnel tracked against targets, and segment cards with trend lines">
+        <a class="shot-link" href="images/executive-dashboard.png" target="_blank" rel="noopener" aria-label="Open full-size screenshot"><img class="shot" src="images/executive-dashboard.png" width="2560" height="1888" loading="lazy" alt="Executive dashboard overview with KPI tiles, a funnel tracked against targets, and segment cards with trend lines"></a>
         <h4>The problem</h4>
-        <p>The CEO of a sports activation company had no single, current view of how the business was performing. Key metrics lived in different places and had to be pulled together manually.</p>
+        <p>A sports sponsorship and fan-engagement company had rich activation data and basic built-in reporting, but a complete, leadership-level picture still meant pulling and combining data by hand.</p>
         <h4>What I built</h4>
-        <p>A CEO-level dashboard, plus the underlying data structure and automated refresh process that keep it current without manual updates.</p>
+        <p>A leadership dashboard that turns the company's activation data into one cohesive snapshot, plus the underlying data model and a repeatable refresh process behind it. It tracks performance against targets, compares results to the prior season, breaks results down by sport, and flags accounts that need attention.</p>
         <h4>How it works</h4>
         <ol class="steps">
-          <li>Designed the data structure that consolidates key business metrics</li>
-          <li>Set up an automated refresh so the data stays current</li>
-          <li>Built the dashboard as a single view the CEO can check at any time</li>
+          <li>Designed a data model that consolidates activation and account data into consistent business metrics</li>
+          <li>Built a repeatable refresh process so the view stays current</li>
+          <li>Created a single leadership view with drill-down by segment, account, and sponsor</li>
         </ol>
         <h4>Result</h4>
-        <p class="result">One always-current view of business performance, with no manual pulls required.</p>
+        <p class="result">One cohesive, leadership-level view of business performance, built on a foundation designed to extend into deeper internal reporting and client-facing views.</p>
         <h4>Built with</h4>
         <ul class="tags">
           <li>Claude Code</li><li>Python</li><li>HTML</li>
         </ul>
       </article>
 
-      <article class="card" id="product-research">
-        <h3>AI Product Research &amp; Evaluation Pipeline</h3>
-        <img class="shot" src="images/product-research.png" width="2560" height="1440" loading="lazy" alt="Product evaluations ranked by score, with one evaluation open showing its score, summary, pros, cons, and verdict">
-        <h4>The problem</h4>
-        <p>Comparing products consistently takes a lot of research, and results vary depending on who does it and what they focus on.</p>
-        <h4>What I built</h4>
-        <p>A multi-step AI workflow that takes source links and a set of criteria, analyzes each product, and returns findings in a standardized format I designed. I refined the model's instructions over time so it focused on what mattered most.</p>
-        <h4>How it works</h4>
-        <ol class="steps">
-          <li>Takes in source links and custom evaluation criteria</li>
-          <li>Analyzes each product against those criteria</li>
-          <li>Returns findings in a consistent, structured format and files them automatically</li>
-        </ol>
-        <h4>Result</h4>
-        <p class="result">Completed 40 consumer electronics product evaluations with a consistent structure and far less manual effort.</p>
-        <h4>Built with</h4>
-        <ul class="tags">
-          <li>Claude Code</li><li>Claude API</li><li>Python</li><li>Google Drive API</li>
-        </ul>
-      </article>
-
       <article class="card" id="doc-search-agent">
         <h3>AI Documentation Search Agent</h3>
-        <img class="shot" src="images/doc-search-agent.png" width="2560" height="1440" loading="lazy" alt="A plain-language question answered from policy documents, with each supporting quote tagged to its source file and lines">
+        <a class="shot-link" href="images/doc-search-agent.png" target="_blank" rel="noopener" aria-label="Open full-size screenshot"><img class="shot" src="images/doc-search-agent.png" width="2560" height="1440" loading="lazy" alt="A plain-language question answered from policy documents, with each supporting quote tagged to its source file and lines"></a>
         <h4>The problem</h4>
         <p>Information spread across a growing collection of documents and notes is slow to search. Finding the right answer means opening files one by one or relying on memory.</p>
         <h4>What I built</h4>
-        <p>An AI agent with repository search that lets me ask questions in plain language and get answers pulled directly from my own documentation.</p>
+        <p>An AI agent that answers plain-language questions from a collection of documents. Every answer quotes its sources down to the exact lines, and every citation is automatically checked against the documents before it's shown.</p>
         <h4>How it works</h4>
         <ol class="steps">
-          <li>Indexes a collection of documents into a searchable repository</li>
           <li>Takes a plain-language question</li>
-          <li>Finds the relevant material and returns an answer drawn from the source documents</li>
+          <li>Searches and reads the documents the way a person would, trying new terms when a search comes up empty</li>
+          <li>Returns an answer with cited quotes, each verified against the source</li>
         </ol>
         <h4>Result</h4>
-        <p class="result">Answers in seconds instead of manual digging through files, from one place.</p>
+        <p class="result">Answers in seconds instead of digging through files. In testing, it handled all 9 questions with verified citations, including trick questions, topics the documents don't cover, and documents that contradict each other.</p>
         <h4>Built with</h4>
         <ul class="tags">
           <li>Claude Code</li><li>Claude API</li><li>Python</li>
+        </ul>
+      </article>
+
+      <article class="card" id="product-research">
+        <h3>AI Product Research &amp; Evaluation Pipeline</h3>
+        <a class="shot-link" href="images/product-research.png" target="_blank" rel="noopener" aria-label="Open full-size screenshot"><img class="shot" src="images/product-research.png" width="2560" height="1440" loading="lazy" alt="Product evaluations ranked by score, with one evaluation open showing its score, summary, pros, cons, and verdict"></a>
+        <h4>The problem</h4>
+        <p>Comparing products consistently takes a lot of research, and results vary depending on who does it and what they focus on.</p>
+        <h4>What I built</h4>
+        <p>A multi-step AI pipeline that researches each product from source links, evaluates it against custom criteria, and writes it up in a standardized format I designed. A separate audit stage then fact-checks every claim against the sources, and finished evaluations are filed automatically to Google Drive.</p>
+        <h4>How it works</h4>
+        <ol class="steps">
+          <li>Reads the product list from a shared Google Doc and researches each product against custom criteria</li>
+          <li>Writes a standardized evaluation: score, pros and cons, and verdict</li>
+          <li>Fact-checks every claim against the sources, then files it to Google Drive</li>
+        </ol>
+        <h4>Result</h4>
+        <p class="result">Completed 40 consumer electronics evaluations across 8 categories in one consistent format. The audit stage checked 792 individual claims and flagged 73 that the sources didn't support.</p>
+        <h4>Built with</h4>
+        <ul class="tags">
+          <li>Claude Code</li><li>Claude API</li><li>Python</li><li>Google Drive API</li>
         </ul>
       </article>
     </section>
 
     <section class="contact" id="contact">
       <h2 class="section-label">Contact</h2>
+      <p class="contact-lead">Interested in how I approach operations and AI workflows? Let's connect.</p>
       <ul class="contact-links">
         <li><a href="https://www.linkedin.com/in/paul-shulman" target="_blank" rel="noopener">Connect on LinkedIn</a></li>
       </ul>

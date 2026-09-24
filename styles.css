@@ -217,3 +217,12 @@ a:hover { text-decoration-thickness: 2px; }
   .card { padding: 22px 18px; border-radius: 10px; }
   .card h3 { font-size: 21px; }
 }
+
+.contact-lead {
+  margin: 0 0 16px;
+}
+
+.shot-link {
+  display: block;
+  cursor: zoom-in;
+}
