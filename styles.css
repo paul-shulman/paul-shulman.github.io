@@ -1,0 +1,219 @@
+:root {
+  --accent: #1F3A5F;
+  --accent-soft: #EEF2F7;
+  --text: #2B2B2B;
+  --muted: #5F6B7A;
+  --border: #E3E7EC;
+  --bg: #FFFFFF;
+  --bg-alt: #F7F8FA;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a { color: var(--accent); text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+
+/* Header */
+.site-header {
+  padding: 88px 0 24px;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+.tagline {
+  margin: 12px 0 4px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.location {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Intro */
+.intro {
+  padding: 16px 0 56px;
+  border-bottom: 1px solid var(--border);
+}
+.intro p {
+  margin: 0;
+  font-size: 19px;
+}
+
+/* Section labels */
+.section-label {
+  margin: 56px 0 24px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Project cards */
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 36px;
+  margin-bottom: 32px;
+  scroll-margin-top: 24px;
+}
+.card h3 {
+  margin: 0 0 20px;
+  font-size: 25px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+}
+.card h4 {
+  margin: 24px 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.card p { margin: 0; }
+
+.result {
+  padding: 14px 18px;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  font-weight: 500;
+}
+
+/* Screenshots */
+.shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background: var(--bg-alt);
+  color: var(--muted);
+  font-size: 15px;
+  border-style: dashed;
+}
+
+/* How it works */
+.steps {
+  list-style: none;
+  counter-reset: step;
+  margin: 8px 0 0;
+  padding: 0;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* Built with */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.tags li {
+  padding: 3px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Contact */
+.contact {
+  padding-bottom: 64px;
+}
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.contact-links a:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Footer */
+.site-footer {
+  padding: 24px 0 40px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 16px; }
+  .site-header { padding: 56px 0 16px; }
+  .site-header h1 { font-size: 34px; }
+  .tagline { font-size: 17px; }
+  .intro { padding-bottom: 40px; }
+  .intro p { font-size: 17px; }
+  .section-label { margin-top: 40px; }
+  .card { padding: 22px 18px; border-radius: 10px; }
+  .card h3 { font-size: 21px; }
+}
