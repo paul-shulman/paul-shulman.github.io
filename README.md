@@ -4,7 +4,7 @@
 
 Source for my portfolio site: **[paul-shulman.github.io](https://paul-shulman.github.io)**
 
-I'm a Business Operations and Strategy professional with 10+ years across Tech, Utilities, and Financial Services. I find manual, repetitive work and replace it with automated workflows, AI agents, and reporting that leaders can act on.
+I'm a Business Operations and Strategy professional with 10+ years across Tech, Financial Services, and Utilities. I find manual, repetitive work and replace it with automated workflows, AI agents, and reporting that leaders can act on.
 
 ### Featured projects
 
