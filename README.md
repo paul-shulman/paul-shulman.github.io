@@ -12,7 +12,7 @@ I'm an Operations and Strategy professional with 10+ years across Tech, Financia
 - **AI Transcription & Briefing Workflow:** hours of recordings turned into audited one-page briefs
 - **Executive Analytics Dashboard:** a leadership view of business performance for a scaling sports business
 - **AI Product Research & Evaluation Pipeline:** 40 standardized product evaluations with a built-in fact-check stage
-- **AI Documentation Search Agent:** plain-language answers from documents, with every citation verified
-- **AI Evaluation & Scoring Agent:** a fully automated agent that scores new listings against a custom rubric and delivers a ranked weekly shortlist
+- **Documentation Search Agent:** plain-language answers from documents, with every citation verified
+- **Evaluation & Scoring Agent:** a fully automated agent that scores new listings against a custom rubric and delivers a ranked weekly shortlist
 
 [Connect on LinkedIn](https://www.linkedin.com/in/paul-shulman)
