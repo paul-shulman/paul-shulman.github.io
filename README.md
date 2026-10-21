@@ -8,10 +8,10 @@ I'm a Business Operations and Strategy professional with 10+ years across Tech, 
 
 ### Featured projects
 
-- **AI Evaluation & Scoring Agent:** a fully automated agent that scores new listings against a custom rubric and delivers a ranked weekly shortlist
-- **Executive Analytics Dashboard:** a leadership view of business performance for a scaling sports business
 - **AI Transcription & Briefing Workflow:** hours of recordings turned into audited one-page briefs
-- **AI Documentation Search Agent:** plain-language answers from documents, with every citation verified
+- **Executive Analytics Dashboard:** a leadership view of business performance for a scaling sports business
 - **AI Product Research & Evaluation Pipeline:** 40 standardized product evaluations with a built-in fact-check stage
+- **AI Documentation Search Agent:** plain-language answers from documents, with every citation verified
+- **AI Evaluation & Scoring Agent:** a fully automated agent that scores new listings against a custom rubric and delivers a ranked weekly shortlist
 
 [Connect on LinkedIn](https://www.linkedin.com/in/paul-shulman)
