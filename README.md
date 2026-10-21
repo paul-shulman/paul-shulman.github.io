@@ -8,6 +8,7 @@ I'm an Operations and Strategy professional with 10+ years across Tech, Financia
 
 ### Featured projects
 
+- **AI Go-to-Market Engine:** an AI-driven sales engine from first email to signed contract and payment
 - **AI Transcription & Briefing Workflow:** hours of recordings turned into audited one-page briefs
 - **Executive Analytics Dashboard:** a leadership view of business performance for a scaling sports business
 - **AI Product Research & Evaluation Pipeline:** 40 standardized product evaluations with a built-in fact-check stage
